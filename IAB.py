@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 #IAB Taxonomy Crunching Module
+#@SUHAS AGGARWAL
 #v0.1 - basically iterates through subcats, checks wikipedia for nearest match, makes a kw distribution for that file's cleaned text
 #v0.2 - performs TFIDF on each of the articles and sets their scores per kw instead of simple counts
 #v0.3 - uses a stemmer 
