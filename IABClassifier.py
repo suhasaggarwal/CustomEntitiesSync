@@ -57,8 +57,8 @@ class LICA:
 	def __init__(self):
 		"""Sets up the classifier"""
 		
-		#import the main payload with keywords for matching/blocking
-		with copen("payload_lica.json", encoding='utf8') as f:
+		#import the main footprint with keywords for matching/blocking
+		with copen("iabsummaryfootprint.json", encoding='utf8') as f:
 			self.payload = load(f)
 		
 		#Build a mapping in memory of keyword to category
