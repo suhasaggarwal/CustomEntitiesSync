@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Suhas Aggarwal
+@Suhas Aggarwal
 Python implementation of IAB Category Allocation (ICA)
 """
 
